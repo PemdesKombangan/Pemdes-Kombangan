@@ -63,18 +63,26 @@
   </style>
 </head>
   <style>
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .gallery img {
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #aaa;
-  }
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+</style>
+  
 </style>
 <body>
   <header>
@@ -112,11 +120,21 @@
 
     <section id="galeri">
       <h2>Galeri Foto</h2>
-      <div class="gallery">
-    <img src="kegiatan_1.png" alt="Bedah Rumah">
-    <img src="kegiatan_2.png" alt="kegiatan 2">
-    <img src="kegiatan_3.png" alt="Pembangunan Plengsengan">
-    <img src="kegiatan_5.png" alt="Posyandu">
+      <section id="galeri">
+  <h2>Galeri Foto</h2>
+  <div class="gallery">
+    <a href="kegiatan_1.jpg" data-lightbox="galeri" data-title="Kegiatan 1">
+      <img src="kegiatan_1.jpg" alt="Kegiatan 1">
+    </a>
+    <a href="kegiatan_2.jpg" data-lightbox="galeri" data-title="Kegiatan 2">
+      <img src="kegiatan_2.jpg" alt="Kegiatan 2">
+    </a>
+    <a href="kegiatan_3.jpg" data-lightbox="galeri" data-title="Kegiatan 3">
+      <img src="kegiatan_3.jpg" alt="Kegiatan 3">
+    </a>
+    <a href="kegiatan_5.jpg" data-lightbox="galeri" data-title="Kegiatan 5">
+      <img src="kegiatan_5.jpg" alt="Kegiatan 5">
+    </a>
   </div>
 </section>
       <p>Foto kegiatan desa akan ditampilkan di sini (Menyusul).</p>
