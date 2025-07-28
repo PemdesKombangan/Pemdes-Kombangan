@@ -1,26 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pemdes Desa Kombangan</title>
   <!-- Lightbox CSS & JS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <style>
     body {
-  <header>
-    <h1>Pemdes Desa Kombangan</h1>
-  </header>
-
-  <main>
-    <img src="logo-desa.png" alt="Logo Desa Kombangan" width="200">
-    <p>Selamat datang di website resmi Desa Kombangan...</p>
-  </main>
-</body>
-  <h1>Pemerintah Desa Kombangan</h1>
-  <p><em>"Bersatu, Bertani, Berkembang"</em></p>
-</header>
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
@@ -63,33 +51,28 @@
       color: white;
       margin-top: 30px;
     }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
   </style>
 </head>
-  <style>
-<style>
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  margin-top: 20px;
-}
-.gallery img {
-  width: 200px;
-  height: auto;
-  border-radius: 6px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
-}
-.gallery img:hover {
-  transform: scale(1.05);
-}
-</style>
-  
-</style>
 <body>
   <header>
-    <img src="logo-kombangan.png" alt="Logo Desa Kombangan" class="logo">
+    <img src="logo-desa.png" alt="Logo Desa Kombangan" class="logo" />
     <h1>Pemerintah Desa Kombangan</h1>
     <p>"Bersatu, Bertani, Berkembang"</p>
   </header>
@@ -117,36 +100,32 @@
       <h2>Berita dan Pengumuman</h2>
       <ul>
         <li>Jhek kaloppaen Mighek Lele ebudinah Roma.</li>
-        <li>Tunggu Kabar selanjutnya.</li>
+        <li>Tunggu kabar selanjutnya.</li>
       </ul>
     </section>
 
     <section id="galeri">
       <h2>Galeri Foto</h2>
-      <section id="galeri">
-  <h2>Galeri Foto</h2>
-  <div class="gallery">
-    <a href="kegiatan_1.jpg" data-lightbox="galeri" data-title="Kegiatan 1">
-      <img src="kegiatan_1.jpg" alt="Kegiatan 1">
-    </a>
-    <a href="kegiatan_2.jpg" data-lightbox="galeri" data-title="Kegiatan 2">
-      <img src="kegiatan_2.jpg" alt="Kegiatan 2">
-    </a>
-    <a href="kegiatan_3.jpg" data-lightbox="galeri" data-title="Kegiatan 3">
-      <img src="kegiatan_3.jpg" alt="Kegiatan 3">
-    </a>
-    <a href="kegiatan_5.jpg" data-lightbox="galeri" data-title="Kegiatan 5">
-      <img src="kegiatan_5.jpg" alt="Kegiatan 5">
-    </a>
-  </div>
-</section>
-      <p>Foto kegiatan desa akan ditampilkan di sini (Menyusul).</p>
+      <div class="gallery">
+        <a href="kegiatan_1.png" data-lightbox="galeri" data-title="Kegiatan 1">
+          <img src="kegiatan_1.png" alt="Kegiatan 1" />
+        </a>
+        <a href="kegiatan_2.png" data-lightbox="galeri" data-title="Kegiatan 2">
+          <img src="kegiatan_2.png" alt="Kegiatan 2" />
+        </a>
+        <a href="kegiatan_3.png" data-lightbox="galeri" data-title="Kegiatan 3">
+          <img src="kegiatan_3.png" alt="Kegiatan 3" />
+        </a>
+        <a href="kegiatan_5.png" data-lightbox="galeri" data-title="Kegiatan 5">
+          <img src="kegiatan_5.png" alt="Kegiatan 5" />
+        </a>
+      </div>
     </section>
 
     <section id="kontak">
       <h2>Kontak Kami</h2>
       <p>Alamat: Desa Kombangan, Kecamatan Geger, Kabupaten Bangkalan</p>
-      <p>Email: Pemdeskombangan@gmai.com</p>
+      <p>Email: pemdeskombangan@gmail.com</p>
       <p>WA: 08xxxxxxxxxx</p>
     </section>
   </div>
